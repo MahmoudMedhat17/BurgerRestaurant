@@ -48,8 +48,8 @@ const Hero = () => {
                             <p data-aos="fade-up">
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eaque reiciendis inventore iste ratione ex alias quis magni at optio
                             </p>
-                            <Link to={"/Order"}>
-                                <button data-aos="fade-up" className=" px-4 py-2 font-bold text-xl border-2 border-white rounded-full bg-gradient-to-r from-primary to-white hover:scale-105 duration-200">Order Now</button>
+                            <Link to={"/Order"} data-aos="fade-up" >
+                                <button className=" px-4 py-2 font-bold text-xl border-2 border-white rounded-full bg-gradient-to-r from-primary to-white hover:scale-105 duration-200">Order Now</button>
                             </Link>
                         </div>
 

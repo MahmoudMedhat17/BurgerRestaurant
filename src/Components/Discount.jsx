@@ -39,8 +39,8 @@ const Discount = () => {
                                 </div>
                             </div>
                             <div>
-                                <Link to={"/Order"}>
-                                    <button data-aos="fade-up" data-aos-delay="600" className="text-white bg-gradient-to-r from-primary to-secondary px-5 py-2 rounded-full hover:scale-105 duration-200">
+                                <Link to={"/Order"} data-aos="fade-up" data-aos-delay="600">
+                                    <button className="text-white bg-gradient-to-r from-primary to-secondary px-5 py-2 rounded-full hover:scale-105 duration-200">
                                         Order Now
                                     </button>
                                 </Link>
