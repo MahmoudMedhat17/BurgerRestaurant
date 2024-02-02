@@ -63,7 +63,7 @@ const Hero = () => {
                                     data-aos="fade-left"
                                 />
                             </div>
-                            <div className="flex lg:flex-col absolute bottom-[-30px] lg:-right-20 lg:bottom-16 bg-white/30 rounded-full gap-5">
+                            <div className="flex lg:flex-col absolute bottom-[-30px] lg:-right-0 lg:bottom-16 bg-white/30 rounded-full gap-5">
                                 {
                                     burgerPics.map((burger) => (
                                         <div data-aos="zoom-out" key={burger.id}>
